@@ -10,37 +10,123 @@ A full-featured NLP system to detect **ethical risks** in public sector AI polic
 
 ## 📁 Project Structure
 
-ethical-risk-detector/
-+---data/ 
-|  +---raw/ ← Unprocessed .txt files scraped from gov.uk
-|  +---cleaned/ ← JSON files after preprocessing
-│  \---processed/ ← Labeled CSV for training
-
-
-├── src/
-
-│ ├── config.py ← Global path and constants
-
-│ ├── scrapping/ ← Web scrapers (e.g., govuk_scraper.py)
-
-│ ├── preprocessing/ ← Text cleaning logic
-
-│ ├── labeling/ ← Snorkel rules and labeler
-│ ├── models/ ← Model training, evaluation, inference
-│ └── utils/ ← Utility functions (tokenization, logging, etc.)
-│
-├── scripts/
-│ ├── scrape_data.py ← Run the gov.uk scraper
-│ ├── clean_data.py ← Run data cleaning pipeline
-│ ├── label_cleaned_data.py ← Apply Snorkel labeling
-│ ├── run_inference.py ← Inference CLI
-│ └── train_model.sh ← Shell wrapper for training
-│
-├── logs/ ← Training logs
-├── models/ ← Saved model checkpoints
-├── requirements.txt ← All required packages
-├── README.md ← This file
-└── .env ← Optional secrets (not versioned)
+D:.
+|   .env
+|   .gitignore
+|   README.md
+|   requirements.txt
+|   tree.txt
+|   
++---data
+|   +---cleaned
+|   |       govuk_cleaned.json
+|   |       
+|   +---processed
+|   |       labeled_sample.csv
+|   |       
+|   \---raw
+|       |   sample_cleaned.csv
+|       |   
+|       \---govuk
+|               AI_ethics_0.txt
+|               AI_ethics_1.txt
+|               AI_ethics_2.txt
+|               AI_ethics_3.txt
+|               AI_ethics_4.txt
+|               AI_fairness_0.txt
+|               AI_fairness_1.txt
+|               AI_fairness_2.txt
+|               AI_fairness_3.txt
+|               AI_fairness_4.txt
+|               AI_procurement_0.txt
+|               AI_procurement_1.txt
+|               AI_procurement_2.txt
+|               AI_procurement_3.txt
+|               AI_procurement_4.txt
+|               algorithm_transparency_0.txt
+|               algorithm_transparency_1.txt
+|               algorithm_transparency_2.txt
+|               algorithm_transparency_3.txt
+|               algorithm_transparency_4.txt
+|               automated_decision-making_0.txt
+|               automated_decision-making_1.txt
+|               automated_decision-making_2.txt
+|               automated_decision-making_3.txt
+|               automated_decision-making_4.txt
+|               Responsible_AI_0.txt
+|               Responsible_AI_1.txt
+|               Responsible_AI_2.txt
+|               Responsible_AI_3.txt
+|               Responsible_AI_4.txt
+|               
++---logs
+|       events.out.tfevents.1751711683.Zain.5812.0
+|       events.out.tfevents.1751711767.Zain.16636.0
+|       events.out.tfevents.1751712054.Zain.10188.0
+|       events.out.tfevents.1751712473.Zain.4076.0
+|       events.out.tfevents.1751712639.Zain.13140.0
+|       events.out.tfevents.1751712764.Zain.13624.0
+|       events.out.tfevents.1751712873.Zain.432.0
+|       events.out.tfevents.1751713813.Zain.8104.0
+|       
++---models
+|   \---final_model
+|       |   config.json
+|       |   merges.txt
+|       |   model.safetensors
+|       |   special_tokens_map.json
+|       |   tokenizer_config.json
+|       |   training_args.bin
+|       |   vocab.json
+|       |   
+|       \---checkpoint-24
+|               config.json
+|               merges.txt
+|               model.safetensors
+|               optimizer.pt
+|               rng_state.pth
+|               scheduler.pt
+|               special_tokens_map.json
+|               tokenizer_config.json
+|               trainer_state.json
+|               training_args.bin
+|               vocab.json
+|               
++---scripts
+|   |   label_cleaned_data.py
+|   |   run_inference.py
+|   |   
+|   \---__pycache__
+|           label_cleaned_data.cpython-312.pyc
+|           run_inference.cpython-312.pyc
+|           
+\---src
+    |   config.py
+    |   data_loader.py
+    |   
+    +---labeling
+    |   |   apply_labeling.py
+    |   |   snorkel_rules.py
+    |   |   
+    |   \---__pycache__
+    |           apply_labeling.cpython-312.pyc
+    |           snorkel_rules.cpython-312.pyc
+    |           
+    +---models
+    |   |   trainer.py
+    |   |   
+    |   \---__pycache__
+    |           trainer.cpython-312.pyc
+    |           
+    +---preprocessing
+    |       cleaner.py
+    |       
+    +---scraping
+    |       govuk_scraper.py
+    |       
+    \---__pycache__
+            config.cpython-312.pyc
+            data_loader.cpython-312.pyc
 
 ---
 
