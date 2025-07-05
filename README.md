@@ -18,19 +18,16 @@ ethical-risk-detector/
 │   └── processed/      # Labeled CSVs ready for model training
 │
 ├── src/
-│   ├── config.py               # Global paths and constants
 │   ├── scrapping/              # Web scrapers (e.g., govuk_scraper.py)
 │   ├── preprocessing/          # Text cleaning logic
 │   ├── labeling/               # Snorkel labeling functions
 │   ├── models/                 # Model training and evaluation
-│   └── utils/                  # Utility functions
+|   ├── config.py               # Global paths and constants
+│   └── data_loader.py          # Load data
 │
 ├── scripts/
-│   ├── scrape_data.py          # Run scraper
-│   ├── clean_data.py           # Run preprocessing
 │   ├── label_cleaned_data.py   # Apply labeling
-│   ├── run_inference.py        # Run predictions on new text
-│   └── train_model.sh          # Shell script to train model
+│   └── run_inference.py        # Run predictions on new text
 │
 ├── logs/               # Training logs
 ├── models/             # Saved model checkpoints
