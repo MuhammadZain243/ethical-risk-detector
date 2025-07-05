@@ -14,9 +14,7 @@ ethical-risk-detector/
 
 ├── data/
 │ ├── raw/ ← Unprocessed .txt files scraped from gov.uk
-
 │ ├── cleaned/ ← JSON files after preprocessing
-
 │ └── processed/ ← Labeled CSV for training
 
 
