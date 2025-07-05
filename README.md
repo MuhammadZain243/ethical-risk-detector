@@ -13,7 +13,6 @@ A full-featured NLP system to detect **ethical risks** in public sector AI polic
 ethical-risk-detector/
 
 ├── data/
-
 │ ├── raw/ ← Unprocessed .txt files scraped from gov.uk
 
 │ ├── cleaned/ ← JSON files after preprocessing
