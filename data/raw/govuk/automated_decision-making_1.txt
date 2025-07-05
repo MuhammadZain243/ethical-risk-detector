@@ -1,0 +1,9 @@
+Guidance for public sector organisations on how to use automated or algorithmic decision-making systems in a safe, sustainable and ethical way.
+HTML
+ODT,23.1 KB
+This file is in anOpenDocumentformat
+This file may not be suitable for users of assistive technology.
+The ‘Ethics, Transparency and Accountability Framework for Automated Decision-Making’ is a 7 point framework to help government departments use automated or algorithmic decision-making systems safely, sustainably and ethically. It is aimed at civil servants, particularly:
+The ‘Ethics, Transparency and Accountability Risk Potential Assessment Form’ document will help teams assess the possible risk of an automated or algorithmic decision.
+Updated with the introduction of Government Digital and Data, the first official name for the function and profession which was sometimes previously referred to as DDaT.
+First published.

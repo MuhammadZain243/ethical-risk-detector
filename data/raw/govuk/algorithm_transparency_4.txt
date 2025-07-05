@@ -1,0 +1,15 @@
+A template for public sector organisations to share information about how and why they are using algorithmic tools.
+MS Excel Spreadsheet,270 KB
+This file may not be suitable for users of assistive technology.
+https://docs.google.com/spreadsheets/u/0/d/15YzxQiGXT2E4d4AiWEbqkumMVIh4UF6Dg5PjjeDUxEU/edit?gid=2100191493&pli=1&authuser=0
+The ATRS template is available in Microsoft Excel and Google Sheets formats. It is divided into 2 tiers.
+Tier 1:
+Tier 2, whilst still accessible to the general public, is aimed at specialist audiences such as:
+Tier 2 is also split across eight further sheets.
+You should complete all sections of the template.
+For further assistance read theguidance to using the ATRS.
+Email the completed template to the ATRS team onalgorithmic-transparency@dsit.gov.ukfor publication to theATRS repository.
+Added the updated version of the template in two formats, Excel and Google Sheets.
+Added the updated version of the template in two formats, Excel and Google Sheets.
+Added an HTML version of the form content.
+First published.

@@ -1,0 +1,5 @@
+Understand how to use artificial intelligence ethically and safely.
+This guidance introduces AI ethics and provides a high-level overview of the ethical building blocks needed for the responsible delivery of an AI project. It is part of awider collection about using artificial intelligence (AI) in the public sector.
+AI has the potential to make a substantial impact for individuals, communities, and society. To make sure the impact of your AI project is positive and does not unintentionally harm those affected by it, you and your team should make considerations of AI ethics and safety a high priority.
+The following guidance is designed to complement and supplement the Data Ethics Framework. The Data Ethics Framework is a tool that should be used in any project.
+Read this guidance on Understanding artificial intelligence ethics and safety

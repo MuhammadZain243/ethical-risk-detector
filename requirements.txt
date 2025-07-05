@@ -1,0 +1,16 @@
+transformers
+pandas
+scikit-learn
+torch
+snorkel
+lime
+shap
+matplotlib
+tqdm
+jupyter 
+notebook 
+seaborn
+nltk
+pymupdf
+unidecode
+datasets

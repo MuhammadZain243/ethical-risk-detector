@@ -1,0 +1,10 @@
+Toolkit for practitioners to support the responsible use of AI systems.
+This toolkit of guidance aims to support organisations and practitioners to safely and responsibly develop and deploy AI systems.
+Resources and guidance for organisations deploying data-driven tools and technologies including AI.
+Resources and guidance for practitioners interested in finding out how assurance techniques can support the development of responsible AI.
+The Algorithmic Transparency Recording Standard helps public sector organisations provide clear information about the algorithmic tools they use, and why they’re using them.
+Research that engages the public, including tracker surveys that measure how public attitudes to data-driven technology and AI vary over time.
+Additional tools have been added in the AI assurance and Data-Driven Innovation categories.
+Added the research on parent and pupil attitudes towards the use of AI in education.
+Added the DfE and DSIT guidance on developing and using data analytics tools in children's social care.
+First published.

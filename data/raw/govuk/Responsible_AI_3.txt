@@ -1,0 +1,8 @@
+Guidance for procuring and deploying AI responsibly in the HR and recruitment sector.
+PDF,791 KB,49 pages
+This file may not be suitable for users of assistive technology.
+HTML
+This ‘Responsible AI in Recruitment’ guidance focuses on assurance good practice for the procurement and deployment of AI systems for HR and recruitment. It specifically focuses on technologies used in the hiring process, such as sourcing, screening, interview and selection.
+Adopting AI‑enabled tools in HR and recruitment processes offers automation and simplification of existing processes. However, these technologies also pose novel risks, including perpetuating existing biases, digital exclusion, and discriminatory job advertising and targeting.
+Tools for trustworthy AI, including AI assurance mechanisms and global technical standards, can play a vital role in managing these risks and building trust. The guidance is written for a non-technical audience and is appropriate for organisations with or without a comprehensive AI strategy.
+For more information on AI assurance and how it can be applied to your own organisation, you can contact the AI assurance team:ai-assurance@dsit.gov.uk.
