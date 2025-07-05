@@ -60,31 +60,37 @@ pip install transformers datasets snorkel scikit-learn
 ## ⚙️ Pipeline Usage
 
 ### Step 1: Scrape Raw Data
+
 ```bash
 python scripts/scrape_data.py
 ```
 
 ### Step 2: Clean and Preprocess
+
 ```bash
 python scripts/clean_data.py
 ```
 
 ### Step 3: Apply Snorkel Labeling Functions
+
 ```bash
 python scripts/label_cleaned_data.py
 ```
 
 ### Step 4: Train Roberta Multi-label Classifier
+
 ```bash
 python -m src.models.trainer
 ```
 
 ### Step 5: Run Inference
+
 ```bash
 python scripts/run_inference.py
 ```
 
 You’ll be prompted to enter text:
+
 ```
 Enter text: AI models trained on historical data may reinforce discrimination.
 Predicted Risks: {'bias': 1, 'surveillance': 0, 'transparency': 1}
@@ -114,10 +120,10 @@ Weak supervision is used to auto-label examples using rules in `src/labeling/sno
 
 ## ✅ Example Output
 
-| id        | title                               | bias | surveillance | transparency |
-|-----------|-------------------------------------|------|--------------|---------------|
-| govuk_001 | AI Regulation                       | 1    | 0            | 1             |
-| govuk_002 | Facial Recognition in Public Use    | 0    | 1            | 0             |
+| id        | title                            | bias | surveillance | transparency |
+| --------- | -------------------------------- | ---- | ------------ | ------------ |
+| govuk_001 | AI Regulation                    | 1    | 0            | 1            |
+| govuk_002 | Facial Recognition in Public Use | 0    | 1            | 0            |
 
 ---
 
