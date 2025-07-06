@@ -124,20 +124,3 @@ Weak supervision is used to auto-label examples using rules in `src/labeling/sno
 | --------- | -------------------------------- | ---- | ------------ | ------------ |
 | govuk_001 | AI Regulation                    | 1    | 0            | 1            |
 | govuk_002 | Facial Recognition in Public Use | 0    | 1            | 0            |
-
----
-
-## 🔭 Future Work
-
-- SHAP/LIME-based interpretability
-- Human-in-the-loop review interface
-- Fine-tuning on manually annotated corpus
-- Zero-shot inference using TARS/BART
-
----
-
-## 👤 Author
-
-**Muhammad Zain Ul Abideen**  
-💼 Full Stack AI Developer  
-📧 zainm2432003@gmail.com
