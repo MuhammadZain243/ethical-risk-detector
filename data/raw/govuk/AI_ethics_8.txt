@@ -1,0 +1,58 @@
+Guidance to help you plan and prepare for implementing artificial intelligence (AI).
+This guidance is part of a wider collection aboutusing artificial intelligence (AI) in the public sector.
+Once you have assessed whether AI can help your team meet your users’ needs, this guidance will explore the steps you should take to plan and prepare before implementing AI. As with all technology projects and programmes,you should follow the Technology Code of Practice.
+This guidance is for anyone responsible for:
+As with all projects, you need to make sure you’rehypothesis-ledand can constantly iterate to best help your users and their needs.
+You should integrate your AI development with your wider project phases.
+You shouldconsider AI ethics and safetythroughout all phases.
+Significant time is needed to understand the feasibility of using your data in a new way. This means the discovery phase tends to be longer and more expensive than for services without AI.
+Your data scientists may be familiar with a lifecycle calledCRISP-DMand may wish to integrate parts of it into your project.
+Discovery can help you understand the problem that needs to be solved.
+You should:
+To prepare for your AI project, you should assess your existing data. Training an AI system on error-strewn data can result in poor results due to:
+You can use a combination of accuracy, completeness, uniqueness, timeliness, validity, relevancy, representativeness, sufficiency or consistency to see if the data is high enough quality for an AI system to make predictions from.
+When assessing your AI data, it’s useful to collaborate with someone who has deep knowledge of your data, such as adata scientist. They will be familiar with the best practice for measuring, cleaning and maintaining good data standards for ongoing projects.Make your data proportionate to user needsandunderstand the limitations of the datato help you assess your data readiness.
+Questions for you to consider with data scientists are:
+If you’re unsure about your use of data, consult theData Ethics Framework guidanceto check your project is a safe application and deployment of AI.
+As with other projects, yourteam should be multidisciplinary, with a diverse combination of roles and skills to reduce bias and make sure your results are as accurate as possible. When working with AI you may need specialist roles such as a:
+You may not need all of these roles from the very beginning, but this may change as the work progresses. You may want to break up your discovery into smaller phases so you can evaluate what you are learning.
+It can be useful for your team to have:
+When preparing for AI implementation, you should identify how you can bestintegrate AI with your existing technology and services.
+It’s useful to consider how you’ll manage:
+When choosing your AI tools, you should bring in specialists, such as data scientists or technical architects to assess what tools you currently have to support AI.
+Use Cloud Firstwhen setting up your infrastructure.
+A data science platform is a type of software tool which helps teams connect all of the technology they require across their project workflow, speeding up AI deployment and increasing the transparency and oversight over AI models.
+When deciding on whether to use a data science platform, it’s useful to consider how the platform can:
+After you’ve assessed your current data quality, you should prepare your data to make sure it is secure and unbiased. You may find it useful tocreate a data factsheetduring discovery to keep a record of your data quality.
+In the same way you should havediversity in your team, your data should also be diverse and reflective of the population you are trying to model. This will reduce conscious or unconscious bias. Alongside this, a lack of diverse input could mean certain groups are disadvantaged, as the AI model may not cater for a diverse set of needs. You should read the Data Ethics Framework guidance tounderstand the limitations of your dataand how to recognise any bias present. You should also:
+Make sure you design your system to keep data secure. To help keep data safe:
+As with any other software, you should design and build modular, loosely coupled systems which can be easily iterated and adapted.
+Writing and training algorithms can take a lot of time and computational power. In addition to ongoing cost, you’ll need to think about the network and memory resources your team will need to train your model.
+Most of the data in government available to train our models is within legacy systems which might contain bias and might have poor controls around it. For legacy systems to be compatible with AI technology, you will often need to invest a lot of work tobring your legacy systems up to modern standards.
+You’ll also need to carefully consider the ethical and legal implications of working with historic data and whether you need to seek permission to use this information.
+When you complete your data preparation phase you should have:
+During the discovery phase, you should explore the needs of the users of the end to end service. Like other digital services, you’ll use this phase to determine whether there’s a viable service you could build that would solve user needs, and that it’s cost-effective to pursue the problem.
+You’ll be able to check guidance on how toknow when your discovery is finishedbefore moving on to alpha.
+If you have decided to build your AI model in-house, you should follow these steps.
+Your team will need to train the models they build on data. Your team should split your data into a:
+Your team should build a simple baseline version model before they build any more complex models. This provides a benchmark that your team can later compare more complex models against, and will help your team identify problems in your data.
+Once you have a baseline model, your team can start prototyping more complex models. This is a highly iterative process, requiring substantial amounts of data, and will see your team probably build a number of AI models before deciding on the most effective andappropriate algorithmfor your problem.
+Keeping your team’s first AI model simple and setting up the right end-to-end infrastructure will help smooth the transition from alpha to beta. You can action this by focusing on the infrastructure requirements for your AI pipelines at the same time as your team is developing your model. Your simple model will provide you with baseline metrics and information on the model’s behaviour that you can use to test more complex models.
+Throughout the build, you shouldmake sure your AI model security complieswith advice from the NCSC.
+Your team will need to test your models throughout the process to mitigate against issues such asoverfitting or underfittingthat could undermine your model’s effectiveness once deployed.
+Your team should only use the test set on your best model. Keep this data separate from your models until this final test. This test will provide you with the most accurate impression of how your model will perform once deployed.
+Your team will need to evaluate your model to assess how it is performing against unseen data. This will give you an indication of how your model will perform in the real world.
+The best evaluation metric will depend on the problem you are trying to solve, and your chosen model. While you should select the evaluation metric with data scientists, you should also consider the ethical, economical and societal implications. These considerations make the fine tuning of AI systems relevant to both data scientists and delivery leads.
+When choosing your final model, you will need to consider:
+Once you select a final model, your team will need to assess its performance, and refine it to make sure it performs as well as you need it to. When assessing your model’s performance consider:
+If a model does not outperform human performance, it still may be useful. For example, a text classification algorithm might not be as accurate as a human when classifying documents, however they can perform at a far higher scale and speed than a human.
+When you complete building your AI prototyping phase, you should have:
+Moving from alpha tobetainvolves integrating the model into the service’s decision-making process and using live data for the model to make predictions on.
+Using your model in your service has 3 stages.
+You should continue tocollect user needsso your team can use the model’s outputs in the real world.
+When moving from alpha to beta, there are some best-practice guidelines to smooth the transition.
+After creating a beta version, you team can use automated testing to create some high-level tests before moving to more thorough testing. Working in this way means you can launch new improvements without worrying about functionality once deployed.
+During alpha, you will have relied mostly on data scientists to assess the opportunity and your data state.
+Moving to beta needs specialists with a strong knowledge of dev-ops, servers, networking, data stores, data management, data governance, containers, cloud infrastructure and security design.
+This skillset is likely to be better suited to an engineer rather than a data scientist so maintaining a cross-functional team will help smooth the transition from alpha to beta.
+When you complete your beta phase, you should have:
