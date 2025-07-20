@@ -61,3 +61,9 @@ python src/preprocessing/govuk_preprocessing.py
 ```bash
 python src/preprocessing/generate_metadata.py
 ```
+
+### Step 4: Use Snorkel for Weak Supervision
+
+```bash
+python scripts/weak_supervision.py
+```
