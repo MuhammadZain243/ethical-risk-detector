@@ -67,3 +67,9 @@ python src/preprocessing/generate_metadata.py
 ```bash
 python scripts/weak_supervision.py
 ```
+
+### Step 5: Model Development
+
+```bash
+python scripts/train_transformer_model.py
+```
