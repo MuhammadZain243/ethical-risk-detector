@@ -1,10 +1,4 @@
-# 🧠 Ethical Risk Detector (Responsible AI by Design)
-
-A full-featured NLP pipeline to detect **ethical risks** in UK government AI policy documents using **weak supervision** and **transformer-based models**. The system identifies textual indicators of:
-
-- 🔍 **Bias**
-- 📹 **Surveillance**
-- 🧾 **Lack of Transparency**
+# 🧠 Risk Detector 
 
 ---
 
