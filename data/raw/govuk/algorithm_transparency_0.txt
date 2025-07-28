@@ -1,0 +1,12 @@
+The Government Digital Service (GDS) is helping public sector organisations provide clear information about how and why they are using algorithmic tools.
+The Algorithmic Transparency Recording Standard (ATRS) establishes a standardised way for public sector organisations to publish information about how and why they are using algorithmic tools.
+Algorithmic transparency means being open about how algorithmic tools support decisions. This includes providing information on algorithmic tools and algorithm-assisted decisions in a complete, open, understandable, easily-accessible, and free format.
+The Hub is made up of
+The ATRS was developed by teams now situated in the Government Digital Service (GDS). Its design and development was underpinned by extensive collaboration with public sector, industry and academic stakeholders as well as a public engagement study. It was piloted with a variety of public sector organisations.
+The ATRS is mandatory for all government departments, and for arm’s-length bodies (ALBs) which deliver public or frontline services, or directly interact with the general public. Thescope and exemptions policy, published in December 2024, sets out the organisations and algorithmic tools for which the ATRS is a requirement in more detail. The ATRS remains recommended by theData Standards Authorityfor use in the broader public sector.
+TheBlueprint for Modern Digital Governmentpublished in January 2025 stated that government would ‘enhance transparency by building on the Algorithmic Transparency Recording Standard to increase openness about AI usage’. We look forward to continuing to enhance and iterate the ATRS and encourage its use across the public sector.
+Get in touch with us atalgorithmic-transparency@dsit.gov.uk.
+Updated the ATRS template and associated guidance for public sector bodies, and updated references to Government Digital Service (GDS).
+Added the 'Scope and exemptions policy for mandatory use of the Algorithmic Transparency Recording Standard'.
+This page has been updated with a new version of the ATRS template and a link to a new GOV.UK search page for ATRS published records.
+First published.

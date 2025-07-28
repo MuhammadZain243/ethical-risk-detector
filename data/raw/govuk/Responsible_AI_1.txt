@@ -1,0 +1,33 @@
+Understand how to use artificial intelligence ethically and safely
+This guidance is part of a wider collection aboutusing artificial intelligence (AI) in the public sector.
+The Office for Artificial Intelligence (OAI) and the Government Digital Service (GDS) have produced the following chapter’s guidance in partnership with The Alan Turing Institute’spublic policy programme. This chapter is a summary ofThe Alan Turing Institute’s detailed guidance, and readers should refer to the full guidance when implementing these recommendations.
+AI has the potential to make a substantial impact for individuals, communities, and society. To make sure the impact of your AI project is positive and does not unintentionally harm those affected by it, you and your team should make considerations of AI ethics and safety a high priority.
+This section introduces AI ethics and provides a high-level overview of the ethical building blocks needed for the responsible delivery of an AI project.
+The following guidance is designed to complement and supplement theData Ethics Framework. The Data Ethics Framework is a tool that should be used in any project.
+This guidance is for everyone involved in the design, production, and deployment of an AI project such as:
+Ethical considerations will arise at every stage of your AI project. You should use the expertise and active cooperation of all your team members to address them.
+AI ethics is a set of values, principles, and techniques that employ widely accepted standards to guide moral conduct in the development and use of AI systems.
+The field of AI ethics emerged from the need to address the individual and societal harms AI systems might cause. These harms rarely arise as a result of a deliberate choice - most AI developers do not want to build biased or discriminatory applications or applications which invade users’ privacy.
+The main ways AI systems can cause involuntary harm are:
+The field of AI ethics mitigates these harms by providing project teams with the values, principles, and techniques needed to produce ethical, fair, and safe AI applications.
+The guidance summarised in this chapter and presented at length inThe Alan Turing Institute’s further guidance on AI ethics and safetyis as comprehensive as possible. However, not all issues discussed will apply equally to each project using AI.
+An AI model which filters out spam emails, for example, will present fewer ethical challenges than one which identifies vulnerable children. You and your team should formulate governance procedures and protocols for each project using AI, following a careful evaluation of social and ethical impacts.
+You should establish ethical building blocks for the responsible delivery of your AI project. This involves building a culture of responsible innovation as well as a governance architecture to bring the values and principles of ethical, fair, and safe AI to life.
+To build and maintain a culture of responsibility you and your team should prioritise 4 goals as you design, develop, and deploy your AI project. In particular, you should make sure your AI project is:
+Prioritising these goals will help build a culture of responsible innovation. To make sure they are fully incorporated into your project you should establish a governance architecture consisting of a:
+You should understand the framework of ethical values which support, underwrite, and motivate the responsible design and use of AI. The Alan Turing Institute calls these ‘the SUM Values’:
+These values:
+You can read further guidance on SUM Values inThe Alan Turing Institute’s comprehensive guidance on AI ethics and safety.
+While the SUM Values can help you consider the ethical permissibility of your AI project, they are not specifically catered to the particularities of designing, developing, and implementing an AI system.
+AI systems increasingly perform tasks previously done by humans. For example, AI systems can screen CVs as part of a recruitment process. However, unlike human recruiters, you cannot hold an AI system directly responsible or accountable for denying applicants a job.
+This lack of accountability of the AI system itself creates a need for a set of actionable principles tailored to the design and use of AI systems. The Alan Turing Institute calls these the ‘FAST Track Principles’:
+Carefully reviewing the FAST Track Principles helps you:
+If your AI system processes social or demographic data, you should design it to meet a minimum level of discriminatory non-harm. To do this you should:
+You should design your AI system to be fully answerable and auditable. To do this you should:
+The technical sustainability of these systems ultimately depends on their safety, including their accuracy, reliability, security, and robustness.
+You should make sure designers and users remain aware of:
+Designers and implementers of AI systems should be able to:
+To assess these criteria in depth,you should consult The Alan Turing Institute’s guidance on AI ethics and safety.
+The final method to make sure you use AI ethically, fairly, and safely is building a process-based governance framework. The Alan Turing Institute calls it a ‘PBG Framework’. Its primary purpose is to integrate the SUM Values and the FAST Track Principles across the implementation of AI within a service.
+Building a good PBG Framework for your AI project will provide your team with an overview of:
+You may find it useful toconsider further guidance on allocating responsibility and governance for AI projects.

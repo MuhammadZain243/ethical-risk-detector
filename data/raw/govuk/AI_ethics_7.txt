@@ -1,0 +1,31 @@
+Guidance on building and using artificial intelligence in the public sector.
+The Government Digital Service (GDS) and the Office for Artificial Intelligence (OAI) have published joint guidance on how to build and use artificial intelligence (AI) in the public sector.
+This guidance covers how:
+OAI, GDS, and The Alan Turing Institute (ATI) have partnered to produce guidance on how to use AI ethically and safely.
+Emailai-guide@digital.cabinet-office.gov.ukif you:
+want to talk about using AI in the public sector
+have any feedback on the AI guidance
+would like to share an AI case study with us
+Every day, artificial intelligence (AI) is changing how we experience the world. We already use AI to find the fastest route home, alert us of suspicious activity in our bank accounts and filter out spam emails.
+The UK government recognises the importance of this technology’s development to both business and the public sector. Indeed, Artificial Intelligence and Data was named as one of the four ‘Grand Challenges’ in the Industrial Strategy White Paper, which are global trends that will transform our future and contribute to the government’s long-term plan to boost productivity in the UK.
+PwC estimates that AI could contribute $15.7tr to the global economy by 2030. The UK is in the top three countries globally in the development of AI technologies and this strength puts us in a prime position to unlock this projected global growth. The same estimates indicate AI could increase our productivity by 14.3% and grow our GDP up to 10.3% by 2030.
+There are huge opportunities for government to capitalise on this exciting new technology to improve lives. We can deliver more for less, and give a better experience as we do so.
+For citizens, the application of AI technologies will result in a more personalised and efficient experience. For people working in the public sector it means a reduction in the hours they spend on basic tasks, which will give them more time to spend on innovative ways to improve services.
+When government and citizens benefit, so does the economy. This year, the UK government ranked second globally in terms of AI readiness, and as the country most prepared within Western Europe to realise the benefits of AI in delivering public services. Putting this readiness into practice and procuring innovative solutions from the UK’s thriving tech sector will, in turn, benefit our economy and grow new and innovative markets across sectors.
+We want the public sector to understand AI and embrace the opportunities here. As part of this work, a review into using AI in the public sector, led by the Government Digital Service and the Office for Artificial Intelligence (a joint DCMS / BEIS unit), was undertaken between November 2018 and April 2019. Its purpose was to show us where AI could have the most impact and where investment could yield the greatest benefit.
+The findings of the review, published as part of the Government Technology Innovation Strategy, revealed that leaders across the public sector could benefit from better understanding the technology, the opportunities it presents and the limitations of its use.
+It also found that delivery teams needed more specific guidance on the different considerations for projects with AI components.
+This guide was produced to meet this need, drawing on best practice from the commercial sector and public sector.
+We also need to practice what we preach and make sure the public sector is leading from the front in the safe and ethical deployment of AI and other emerging technologies. To reflect this, we have worked with the Alan Turing Institute, the UK’s national institute for artificial intelligence, to produce additional guidance on AI ethics and safety in a public sector context.
+Maximising the benefits of AI is a priority for government, and this guide is an important step forward towards reaching that goal. We encourage you to put this guidance into practice.
+Minister of State for Digital and the Creative Industries, Margot James MP
+Minister of State for Universities, Science, Research and Innovation, Chris Skidmore MP
+Parliamentary Secretary and Minister for Implementation, Oliver Dowden CBE MP
+Guidance from GDS and OAI on how to assess, plan and manage artificial intelligence.
+Guidance produced in partnership with The Alan Turing Institute on how to use AI ethically and safely.
+A collection of examples of how artificial intelligence is being used by the public sector and elsewhere.
+We have added a new case study to the "Examples of artificial intelligence use" section.
+Included an email address for any feedback on the guidance
+Addition of a case study
+Moved Ministerial Foreword from 'A guide to using artificial intelligence in the public sector' guidance page to collection page.
+First published.

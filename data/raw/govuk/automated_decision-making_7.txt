@@ -1,0 +1,26 @@
+A programme for the safe deployment of automated vehicles and implementing the Automated Vehicles Act 2024.
+The Automated Vehicles Act Implementation Programme was launched in 2024 to secure the safe deployment of automated vehicles (AVs) on roads in Great Britain. It is responsible for carrying out the full policy, legislative and operational programme to implement theAutomated Vehicles Act 2024in 2027.
+Safe trialling of the technology and developing use cases is an essential part of the path to implementation. We are working to support safe trialling of prototype automated vehicles on our roads and ensure the UK is the trialling destination of choice for industry. This work builds on theCode of Practice: automated vehicle trialling, delivering an automated passenger permitting route and enabling the deployment of automated passenger vehicles services.
+See theLaw Commission of England and Wales and the Scottish Law Commission’s regulations reviewfor more information.
+The objectives of the Automated Vehicles Act Implementation Programme can be found below.
+Our objectives are to:
+produce the secondary legislation and guidance required to establish the act’s regulatory framework
+develop the safe operations of the futureAVframework, ensuring that relevant government bodies are ready to fulfil the functions of the framework
+develop processes to approve and authoriseAVsand ongoing requirements to maintain the validity of this authorisation
+protect consumers, by ensuring that only vehicles that are authorised as automated under the framework can be marketed as such
+Our objectives are to:
+develop in-use regulation capabilities to ensure the safe and secure deployment and ongoing roadworthiness of automated vehicles
+develop an independent incident investigation capability to learn lessons from incidents involving automated vehicles to implement change and prevent similar future incidents
+develop an in-use regulatory scheme to safeguard the safe and secure operation of automated vehicles
+support safe trialling of prototypeAVson our roads and ensure the UK is the trialling destination of choice for industry - this will be achieved by building on theCode of Practice: automated vehicle trialling
+develop and/or adapt rules on the safe use ofAVs, such as through the Highway Code, driver, vehicle and service licencing and insurance
+Our objectives are to:
+ensure government has the skills, capabilities and access to assets to deliver safe and secure use ofAVs
+design and implement processes to ensure thatAVsare resilient to and can respond to cyber-attacks and that the data they hold is secure
+alongside developing our domestic regulations, we are playing a leading role in work to harmonise international rules on self-driving, which will enable our companies to export globally
+The programme team includes staff from across Centre for Connected and Autonomous Vehicles (CCAV), the Department for Transport (DfT) and its executive agencies, as well as other government departments and their agencies.
+The Automated Vehicles Act Implementation Programme is being delivered jointly by the:
+The programme works closely with experts from academia and industry to enable the safe development and deployment of connected andAVtechnologies.
+An  automated vehicles expert advisory panel (EAP) provides independent, expert advice on the development of the act’s implementation programme.
+Email:enquiries@ccav.gov.uk
+Centre for Connected and Autonomous VehiclesGreat Minster House33 Horseferry RoadLondonSW1P 4DRUnited Kingdom

@@ -1,0 +1,3 @@
+Organisations and algorithmic tools in scope of the mandatory requirement to publish ATRS records.
+HTML
+This is the scope and exemptions policy for the Algorithmic Transparency Recording Standard (ATRS). It sets out which organisations and algorithmic tools are in scope of the mandatory requirement to publishATRSrecords. It also sets out the required steps to ensure that sensitive information is handled appropriately.

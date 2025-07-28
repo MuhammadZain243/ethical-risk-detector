@@ -1,0 +1,13 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore system-specific files
+__pycache__/
+
+# Ignore environment files
+
+# Ignore log files
+/logs/
+/results/
+config.bat
+node_modules
