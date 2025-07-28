@@ -18,9 +18,12 @@ ethical-risk-detector/
 │   └── processed/      # Labeled CSVs ready for model training
 │
 ├── src/
+├── ├── labeling/               # Assign labels
 │   ├── scrapping/              # Web scrapers (e.g., govuk_scraper.py)
 │   ├── preprocessing/          # Text cleaning logic
-│   └── models/                 # Model training and evaluation
+│   ├── models/                 # Model training and evaluation
+├── ├── config.py
+├── └── load_data.py
 │
 ├── scripts/
 │
@@ -72,4 +75,17 @@ python scripts/weak_supervision.py
 
 ```bash
 python scripts/train_transformer_model.py
+```
+
+### Step 6: SHAP and LIME Explaination
+
+```bash
+python scripts/shap_explain.py
+python scripts/lime_explain.py
+```
+
+### Step 7: Comparison
+
+```bash
+python scripts/baseline_comparison.py
 ```
