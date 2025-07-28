@@ -19,9 +19,10 @@ def preprocess_data(df):
     encodings = tokenizer(df['Text'].tolist(), truncation=True, padding=True, max_length=512)
 
     labels = df[label_columns].values  # Extract the labels (binary for each ethical risk)
+    labels = torch.tensor(labels, dtype=torch.float)
 
     return Dataset.from_dict({
-        'text': encodings['input_ids'],
+        'input_ids': encodings['input_ids'],
         'attention_mask': encodings['attention_mask'],
         'labels': labels.tolist()
     })
@@ -33,12 +34,29 @@ dataset = preprocess_data(df)
 kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
 # Evaluation metrics
+# def compute_metrics(pred):
+#     labels = pred.label_ids
+#     preds = pred.predictions.argmax(axis=-1)  # Get the class with highest probability
+#     f1 = f1_score(labels, preds, average='macro')  # Macro F1-score
+#     hl = hamming_loss(labels, preds)  # Hamming loss
+#     return {'f1_score': f1, 'hamming_loss': hl}
+
 def compute_metrics(pred):
+    logits = pred.predictions
     labels = pred.label_ids
-    preds = pred.predictions.argmax(axis=-1)  # Get the class with highest probability
-    f1 = f1_score(labels, preds, average='macro')  # Macro F1-score
-    hl = hamming_loss(labels, preds)  # Hamming loss
-    return {'f1_score': f1, 'hamming_loss': hl}
+
+    # Apply sigmoid since we're using multi-label classification
+    probs = torch.sigmoid(torch.tensor(logits))
+    preds = (probs > 0.5).int().numpy()  # Binarize predictions at threshold 0.5
+
+    f1 = f1_score(labels, preds, average='macro')
+    hl = hamming_loss(labels, preds)
+
+    return {
+        'f1_score': f1,
+        'hamming_loss': hl
+    }
+
 
 # Training function using Hugging Face Trainer
 def train_model(train_idx, val_idx):
@@ -46,11 +64,14 @@ def train_model(train_idx, val_idx):
     val_data = dataset.select(val_idx)
 
     # Load pre-trained RoBERTa model for sequence classification
-    model = RobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=3)
+    model = RobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=3,problem_type="multi_label_classification")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(device)
+    model.to(device) 
 
     training_args = TrainingArguments(
         output_dir='./results', 
-        evaluation_strategy='epoch',  # Evaluate after every epoch
+        eval_strategy='epoch',  # Evaluate after every epoch
         save_strategy='epoch',        # Save after every epoch
         learning_rate=2e-5, 
         per_device_train_batch_size=16,
