@@ -1,0 +1,26 @@
+Guidance to help you assess if artificial intelligence (AI) is the right technology for your challenge.
+This guidance is part of a wider collection aboutusing artificial intelligence (AI) in the public sector.
+This guidance will help you assess if artificial intelligence (AI) is theright technology to help you meet user needs. As with all technology projects, you should make sure you can change your mind at a later stage and you can adapt the technology as your understanding of user needs changes.
+This guidance is relevant for anyone responsible for choosing technology in a public sector organisation.
+AI is just another tool to help deliver services. Designing any service starts withidentifying user needs. If you think AI may be an appropriate technology choice to help you meet user needs, you will need to consider your data and the specific technology you want to use. Yourdata scientistswill then use your data to build and train an AI model.
+When assessing if AI could help you meet users’ needs, consider if:
+It’s important to remember that AI is not an all-purpose solution. Unlike a human, AI cannot infer, and can only produce an output based on the data a team inputs to the model.
+When identifying whether AI is the right solution, it’s important that you work with:
+For your AI model to work, it needs access to a large quantity of data. Work with specialists who have the knowledge of your data, such as data scientists, to assess your data state. You can assess whether your data is high enough quality for AI using a combination of:
+If your problem involves supporting an ongoing business decision process, you will need to plan to establish ongoing, up-to-date access to data. Remember tofollow data protection laws.
+There is no one ‘AI technology’. Currently, widely-available AI technologies are mostly either supervised, unsupervised or reinforcement machine learning. The machine learning techniques that can provide you with the best insight depends on the problem you’re trying to solve.
+There are certain types of problems for which machine learning is commonly used. For some of these you will be able to buy or adapt commercially available products.
+Because of its experimental and iterative nature, it can be difficult to specify the precise benefits which could come from an AI project. To explore this uncertainty and provide the right level of information around the potential benefits, you can:
+Once you have secured budget, you’ll need to allow enough time and resources toconduct a substantial discoveryto show feasibility. Discovery for projects using AI can often takes longer for similar projects that do not use AI.
+If your organisation is a central government department, you may have toget approval from the Government Digital Service (GDS) to spend moneyon AI. At this point mostAI projects are classified as ‘novel’, which requires a high level of scrutiny. You should contact theGDS Standards Assuranceteam for help on the spend controls process.
+When assessing if AI could help you meet user needs, consider how you will procure the technology. You shoulddefine your purchasing strategyin the same way as you would for any other technology. Whether you build, buy or reuse (or combine these approaches) will depend on a number of considerations, including:
+It’s also important toaddress ethical concernsabout the use of AI from the start of the procurement process.
+The Office for AI and the World Economic Forum are developing furtherguidance on AI procurement.
+Your team can build or adapt off-the-shelf AI models or open source algorithms in-house.
+When making this decision, you should work with data scientists to consider whether:
+You may be able to buy your AI technology as an off-the-shelf product. This is most suitable if you are looking for a common application of AI, for example optical character recognition. However, buying your AI technology may not always be suitable as the specifics of your data and needs could mean the supplier would have to build from scratch or significantly customise an existing model.
+Your AI solution will still need to be integrated into an end-to-end service for your users, even if you are able to buy significant components off the shelf.
+When using AI it’s important to understand who is responsible if the system fails, as the problem may lie in a number of areas. For example, failures with the data chosen to train the model, design of the model, coding of the software, or deployment.
+You should establish a responsibility record which sets out who is responsible for different areas of the AI. It would be useful to consider whether:
+Depending on your organisation’s maturity, it may be useful to set up a dedicated board, committee or forum to handle AI data and model governance.
+It can be useful to keep a central record of all AI technologies you use, listing:

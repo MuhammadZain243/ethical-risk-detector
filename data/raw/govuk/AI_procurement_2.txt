@@ -1,5 +1,5 @@
-This PPN provides optional questions to help identify the use of Artificial Intelligence in procurements, and in the delivery of government services.
-PDF,291 KB,8 pages
-This file may not be suitable for users of assistive technology.
-HTML
-This PPN has been updated to reflect new terminology introduced by the Procurement Act 2023 and the Procurement Regulations 2024. For procurements commenced and contracts awarded before this date, please refer to PPN 02/24.
+The Sovereign AI Unit will ensure the government can harness AI’s capabilities to unlock economic growth and enhance UK national security.
+Artificial Intelligence (AI) capabilities are developing at an extraordinary pace. In anAIenabled world, it matters who influences and builds the models, data andAIinfrastructure that are increasingly present in our lives. The Department for Science, Innovation and Technology (DSIT) has set up the SovereignAIUnit to build and harness the UK’sAIcapabilities to unlock economic growth and enhance UK national security. The Unit works closely with the Prime Minister’s Adviser onAI.
+Announced in theAIOpportunities Action Planprepared by Matt Clifford, the SovereignAIUnit has an ambitious mandate to strengthen the UK’s capabilities with up to £500 million of funding.
+We will do this by:
+These partnerships are Memorandums of Understandings (MoU) which are non-legally binding, non-commercial agreements.

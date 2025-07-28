@@ -18,22 +18,17 @@ ethical-risk-detector/
 │   └── processed/      # Labeled CSVs ready for model training
 │
 ├── src/
+├── ├── labeling/               # Assign labels
 │   ├── scrapping/              # Web scrapers (e.g., govuk_scraper.py)
 │   ├── preprocessing/          # Text cleaning logic
-│   ├── labeling/               # Snorkel labeling functions
 │   ├── models/                 # Model training and evaluation
-|   ├── config.py               # Global paths and constants
-│   └── data_loader.py          # Load data
+├── ├── config.py
+├── └── load_data.py
 │
 ├── scripts/
-│   ├── label_cleaned_data.py   # Apply labeling
-│   └── run_inference.py        # Run predictions on new text
 │
-├── logs/               # Training logs
-├── models/             # Saved model checkpoints
 ├── requirements.txt    # Required packages
-├── README.md           # Project overview (this file)
-└── .env                # Local environment variables (not versioned)
+└── README.md           # Project overview (this file)
 ```
 
 ---
@@ -48,79 +43,49 @@ cd ethical-risk-detector
 pip install -r requirements.txt
 ```
 
-### 2. Install Key Libraries
-
-```bash
-pip install torch torchvision torchaudio
-pip install transformers datasets snorkel scikit-learn
-```
-
 ---
 
 ## ⚙️ Pipeline Usage
 
-### Step 1: Scrape Raw Data
+### Step 1: Data Collection
 
 ```bash
-python scripts/scrape_data.py
+python src/scraping/scrape_govuk.py
 ```
 
-### Step 2: Clean and Preprocess
+### Step 2: Data Preprocessing
 
 ```bash
-python scripts/clean_data.py
+python src/preprocessing/govuk_preprocessing.py
 ```
 
-### Step 3: Apply Snorkel Labeling Functions
+### Step 3: Document Metadata Sheet
 
 ```bash
-python scripts/label_cleaned_data.py
+python src/preprocessing/generate_metadata.py
 ```
 
-### Step 4: Train Roberta Multi-label Classifier
+### Step 4: Use Snorkel for Weak Supervision
 
 ```bash
-python -m src.models.trainer
+python scripts/weak_supervision.py
 ```
 
-### Step 5: Run Inference
+### Step 5: Model Development
 
 ```bash
-python scripts/run_inference.py
+python scripts/train_transformer_model.py
 ```
 
-You’ll be prompted to enter text:
+### Step 6: SHAP and LIME Explaination
 
+```bash
+python scripts/shap_explain.py
+python scripts/lime_explain.py
 ```
-Enter text: AI models trained on historical data may reinforce discrimination.
-Predicted Risks: {'bias': 1, 'surveillance': 0, 'transparency': 1}
+
+### Step 7: Comparison
+
+```bash
+python scripts/baseline_comparison.py
 ```
-
----
-
-## 🤖 Model Details
-
-- **Model**: `RobertaForSequenceClassification`
-- **Type**: Multi-label classification (3 labels: bias, surveillance, transparency)
-- **Loss**: `BCEWithLogitsLoss`
-- **Input**: Preprocessed policy document text
-- **Output**: Risk probabilities → binary labels (threshold = 0.5)
-
----
-
-## 🧠 Snorkel Labeling Functions
-
-Weak supervision is used to auto-label examples using rules in `src/labeling/snorkel_rules.py`. Key functions include:
-
-- `bias_keywords()`: Flags fairness, systemic bias, social discrimination
-- `surveillance_keywords()`: Flags tracking, facial recognition, mass monitoring
-- `transparency_keywords()`: Flags black-box warnings, lack of audit/explainability
-
----
-
-## ✅ Example Output
-
-| id        | title                            | bias | surveillance | transparency |
-| --------- | -------------------------------- | ---- | ------------ | ------------ |
-| govuk_001 | AI Regulation                    | 1    | 0            | 1            |
-| govuk_002 | Facial Recognition in Public Use | 0    | 1            | 0            |

@@ -1,6 +1,11 @@
-Published in January 2021 by the British Security Industry Association (BSIA), this guidance promotes ethical and legal use of Automated Facial Recognition (AFR).
-https://www.bsia.co.uk/ai/
-This guidance is available on the BSIA website.
-Automated Facial Recognition (AFR) is a technology that has been designed to improve the safety and wellbeing of people, as well as providing a tool to assist and speed up operational processes. AFR is one of many data analysis
-technologies which sit under the overarching umbrella of Artificial Intelligence (AI), a branch of Computer Science.
-The ethics of AI and its application need to be regularly reviewed to ensure that it is not allowed to act autonomously without human oversight and it should not be used in any way which causes harm to individuals.
+Understand how to manage a project which uses artificial intelligence.
+This guidance is part of a wider collection aboutusing artificial intelligence (AI) in the public sector.
+Once you have planned and prepared for your AI implementation, you will need to make sure you effectively manage risk and governance.
+This guidance is for people responsible for:
+The Alan Turing Institute (ATI) has written guidance onhow to use AI ethically and safely.
+Governance in safety is important to make sure the model shows no signs of bias or discrimination. You can consider whether:
+Governance in purpose makes sure the model is achieving its purpose/business objectives. You can consider whether:
+Governance in accountability provides a clear accountability framework for the model. You can consider:
+Governance in testing and monitoring makes sure a robust testing framework is in place. You can consider:
+Governance in public narrative protects against reputational risks arising from the application of the model. You can consider whether:
+Governance in quality assurance makes sure the code has been reviewed and validated. You can consider whether:

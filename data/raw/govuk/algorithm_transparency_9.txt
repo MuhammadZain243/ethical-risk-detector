@@ -1,0 +1,6 @@
+The DRCF’s Algorithmic Processing workstream held two workshops with 22 industry stakeholders to explore transparency during the procurement of algorithmic systems. This paper describes insights and key findings from our workshops.
+PDF,509 KB,15 pages
+In 2021, the DRCF established an Algorithmic Processing workstream to explore the impact of algorithms across our industries and regulatory remits. The workstream published two discussion papers on thebenefits and harms of algorithmic systemsand onauditing algorithms.
+In our 2022 to 2023 workplan, we committed to further research on transparency and accountability during the procurement process, after concerns were raised by stakeholders in previous research.
+In our workshops with industry stakeholders we explored how the procurement of algorithmic systems takes place, barriers that inhibit effective information sharing between parties, and potential solutions that could help to address these challenges.
+Transparency will continue to be a focus of the DRCF’s work, as well as for other regulators, governments and regions who are developing approaches to AI regulation and governance. We hope that this paper will inform further research to support the development of good practice on algorithmic transparency.
