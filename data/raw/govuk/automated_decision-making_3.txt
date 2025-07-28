@@ -1,0 +1,27 @@
+Your technology should adapt to future demands and work with existing technologies, processes and infrastructure in your organisation.
+To meet point 9 of theTechnology Code of Practice(TCoP) your plans must show you’ve considered how your technology project or programme integrates into your organisation.
+If you’re going through thespend control processyou must explain how you’re trying to meet point 9.
+Good integration means making sure your new technology works with legacy solutions without limiting your ability to adapt to future demands or upgrade systems.
+Your programme will benefit from:
+Each organisation’s technology and infrastructure will have unique services and issues. But there are some common elements to consider when fitting new technology into your current or legacy system, including:
+Read how theDepartment for Transport’s Chief Architect has created a Digital Design Authorityto help integrate new technology with their current technology.
+To optimise systems integration consider:
+If you have chosen to use a systems integrator you should make sure they meet all of your requirements.
+A number of government organisations are using or investigating emerging technologies. If you’re thinking about introducing emerging technology to your infrastructure, you should make sure it meets user needs. You’ll need to investigate alternative mature technology solutions thoroughly to check if this is the case.
+Your emerging technology programme will also benefit from checking:
+You can find guidance onchoosing technology for services, including how to adopt new technology.
+‘Emerging technologies’ is a broad term for a range of tools and techniques that are at different stages of development. Examples of emerging technology include:
+But although emerging technologies are sometimes categorised together, some are more mature than others.
+Severalgovernment organisations are already using artificial intelligence or machine learningin different ways. For example,GDS is using machine learningto process large amounts of data to aid human decision-making. AndOxford City Council is leading a group of local authorities in a joint discoveryon how chatbots and AI might help to solve service design problems.
+If you are considering using artificial intelligence, read the guidance onusing artificial intelligence in the public sector.
+Some government organisations are also fundingresearch into quantum computing. This technology is in the theoretical phase and the government is unlikely to use this technology in the short term.
+You can share your experiences and find out more about what other government organisations are doing in these areas oncross-government Slack. You will need to login with your government email to join the conversations.
+You can also share knowledge about AI  technologies with colleagues in other parts of the Civil Service using thegovernment data science Slack workspace.
+You can contact your GDS  advisor atdigital-spend-assurance@dsit.gov.ukto discuss whether an emerging technology solution is right for your organisation.
+Next: Technology Code of Practice point 10 -Make better use of data
+New email address for GDS assurance team due to recent DSIT machinery of government transfer
+updated references from CDDO to GDS
+Updates to CDDO email
+Addition of a temporary research survey to get user feedback on the Technology Code of Practice.
+Addition of a section on emerging technology
+First published.

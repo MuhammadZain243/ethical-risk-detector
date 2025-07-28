@@ -1,0 +1,15 @@
+Find guidance for the responsible use and development of data and data technologies developed by and for government and public sector bodies.
+Use this tool to find data ethics guidance from across government. You can use the filter and search functions to identify the most relevant pieces of information for your organisation’s needs.
+Start now
+Emaildata.ethics@digital.cabinet-office.gov.ukif you have questions or suggestions about data ethics guidance, or are aware of further relevant guidance that should be included.
+We encourage anyone working in the government and public sector to refer to the documents below to develop a high-level understanding of key data ethics considerations.
+TheData Ethics Frameworkexplains how to use data appropriately and responsibly when planning, implementing and evaluating a new policy or service.
+TheModel for Responsible Innovationis a practical tool to help teams across the public sector and beyond to innovate responsibly with data andAI.
+When working with public sector data, you have a responsibility to establish whether the data you manage and use is fit for purpose. TheGovernment Data Quality FrameworkandData Sharing Governance Frameworkset out principles and practices to improve the quality and better use of data across government.
+TheGenerativeAIFramework forHMGexplains how to use generativeAIsafely and responsibly.
+TheAlgorithmic Transparency Recording Standard (ATRS)provides a standard for public sector organisations to publish information about how and why they are using algorithmic methods in decision-making processes that affect members of the public.
+TheEthics, Transparency and Accountability Framework for Automated Decision-Makingaims to help government departments with the safe, sustainable and ethical use of automated and algorithmic decision-making systems.
+AIassurance is vital to ensure the reliability and trustworthiness ofAIsystems. The Responsible Technology Adoption Unit’s (RTA)introduction toAIAssuranceidentifies assurance techniques that can support the development of responsibleAI.
+You can find additional information about tools and processes that support the responsible use ofAIat theRTA’sResponsibleAIToolkitpage.
+You must use the criteria inThe Technology Code of Practiceto design, build and buy technology in government.
+When procuringAIsolutions from third parties, refer to theGuidelines forAIprocurement. This includes principles for buyingAItechnology and insights on tackling challenges that may arise during procurement.

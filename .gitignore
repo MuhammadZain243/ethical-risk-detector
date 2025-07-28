@@ -1,0 +1,12 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore system-specific files
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore log files
+/logs/
+/results/
