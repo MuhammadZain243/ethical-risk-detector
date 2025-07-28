@@ -1,5 +1,3 @@
-# src/labeling/snorkel_rules.py
-
 from snorkel.labeling import labeling_function
 
 # Label values
@@ -12,7 +10,7 @@ TRANSPARENCY = 1
 
 @labeling_function()
 def bias_keywords(x):
-    text = x.text.lower()
+    text = x["Text"]
 
     direct_keywords = [
         "bias", "discrimination", "fairness", "unfair", "prejudice",
@@ -43,7 +41,7 @@ def bias_keywords(x):
 
 @labeling_function()
 def surveillance_keywords(x):
-    text = x.text.lower()
+    text = x["Text"]
 
     surveillance_keywords = [
         "monitoring", "surveillance", "facial recognition", "face scan",
@@ -68,7 +66,7 @@ def surveillance_keywords(x):
 
 @labeling_function()
 def transparency_keywords(x):
-    text = x.text.lower()
+    text = x["Text"]
 
     transparency_keywords = [
         "transparency", "accountability", "explainable", "interpretable",

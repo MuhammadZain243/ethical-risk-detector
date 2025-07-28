@@ -1,0 +1,97 @@
+Published 17 December 2024
+
+© Crown copyright 2024
+This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated. To view this licence, visitnationalarchives.gov.uk/doc/open-government-licence/version/3or write to the Information Policy Team, The National Archives, Kew, London TW9 4DU, or email:psi@nationalarchives.gov.uk.
+Where we have identified any third party copyright information you will need to obtain permission from the copyright holders concerned.
+This publication is available at https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy
+This is the mandatory scope and exemptions policy for the Algorithmic Transparency Recording Standard (ATRS). It sets out which organisations and algorithmic tools are in scope of the mandatory requirement to publishATRSrecords, as announced in the previousgovernment’s responseto the consultation on theAIWhite Paper “A pro-innovation response toAIregulation” in February 2024. It also sets out the required steps to ensure that sensitive information is handled appropriately.
+Since the beginning of 2022, the Algorithmic Transparency Recording Standard (ATRS) has been an established mechanism for the proactive publication of information on the use of algorithmic tools in the public sector. TheATRShas been piloted with various organisations, enhanced and iterated multiple times, and on 6 Feb 2024 it was mandated across all government departments, with a stated intent to extend the requirement to the broader public sector over time. To implement this mandatory rollout, we need to establish clear lines about which organisations and tools are in scope, and the type of information that, for various reasons, may be too sensitive for publication on GOV.UK.
+Transparency around how the public sector is using algorithmic tools is useful and appropriate in most circumstances and should be our default position. However, there is some need for caution to make sure that information that is sensitive or confidential is handled properly.
+This document sets out the scope for mandatory publication ofATRSrecords, implementing the cross-government policy set out in theAIWhite Paper consultation responseon 6 Feb 2024.
+It sets out:
+The organisations in scope of this policy, which currently comprise central government (with an intent to extend this more broadly across the public sector in future)
+The algorithmic tools that are in scope
+The steps to be taken to make sure that sensitive information is handled appropriately
+The mandatory requirement to completeATRSrecords currently applies to central government. For the purposes of this policy, this consists of the following:
+Ministerial departments, and
+Non-ministerial departments, and
+Arm’s-length-bodies (ALBs), meaning executive agencies and non-departmental public bodies, whichprovide public or frontline services, or routinely interact with the general public.
+This scope is intended to capture the majority of central government uses of algorithmic tools, without placing a disproportionate burden on large numbers of very small or non-frontline arm’s-length bodies that are unlikely to be responsible for any in-scope algorithmic tools. We will work with departments to finalise which arm’s-length bodies fall in or out of scope, but as examples we would anticipate the following:
+Examples of organisations in mandatory scope:
+All ministerial departments e.g.MoJ,DfE,DSIT
+All non-ministerial departments e.g.HMRC, the National Archives, Competitions and Markets Authority
+All other arm’s-length bodies (ALBs) that provide public or frontline services, or routinely interact with the general public e.g. HM Land Registry, HM Prisons and Probation Service
+Examples of organisations out of mandatory scope:
+Shared Business Services Limited
+National Infrastructure Commission
+Biometric and Forensics Ethics Group
+The initial rollout of the mandatory policy is proceeding in two phases:
+Phase 1:Most ministerial departments andHMRC, specifically:
+Cabinet Office
+Department for Business and Trade
+Department for Culture Media and Sport
+Department for Education
+Department for Energy Security and Net Zero
+Department for Environment Food and Rural Affairs
+Department for Science, Innovation and Technology
+Department for Transport
+Department for Work and Pensions
+Department for Health and Social Care
+Foreign, Commonwealth and Development Office
+HM Revenue and Customs
+HM Treasury
+Home Office
+Ministry of Defence
+Ministry of Housing, Communities and Local Government
+Ministry of Justice
+Phase 2:The remaining ministerial and non-ministerial departments, and arm’s-length bodies that fall in the scope listed above.
+As a DSA-endorsed Standard, theATRSremains recommended across the broader public sector. Hence, the sections below will also be useful to other organisations in determining for which tools it would be good practice to publishATRSrecords.
+Organisations determined to be in mandatory scope above are required to publishATRSrecords for algorithmic tools they are currently using in relevant use cases.
+An algorithmic tool is a product, application, or device that supports or solves a specific problem using complex algorithms.
+We use ‘algorithmic tool’ as an intentionally broad term that covers different applications of artificial intelligence (AI), statistical modelling and complex algorithms. An algorithmic tool might often incorporate a number of different component models integrated as part of a broader digital tool.
+The mandatory requirement to publish anATRSrecord applies to algorithmic tools that either:
+have a significant influence on a decision-making process with public effect, or
+directly interact with the general public.
+‘Significant influence’ includes where an algorithmic tool meaningfully assists, supplements, or fully automates a decision-making process. This could be a tool that plays a triaging or scoring function within a wider process.
+By ‘public effect’ we mean a decision-making process having an impact on members of the public, where the latter are understood as any individuals or groups of individuals, irrespective of their nationality or geographical location. Impact on members of the public also includes algorithmic tools directly processing data or information people have submitted as part of a wider process, e.g. an application, complaint or consultation submission.
+To decide whether a decision-making process has a public effect, you might want to consider whether usage of the tool assists, supplements or fully automates a process which:
+materially affects individuals, organisations or groups
+has a legal, economic, or similar impact on individuals, organisations or groups
+affects procedural or substantive rights
+impacts eligibility for, receipt of, or denial of a programme
+Note that this is intended to apply to situations where an algorithmic tool is influencing specific operational decisions about individuals, organisations or groups, not where a tool is an analytical model supporting broad government policy-making. Analytical models in scope of the guidance in theAqua Bookwill typically be outside ofATRSscope (though it is possible to envisage some specific circumstances where both would be applicable, see examples below).
+Examples of tools that could fall within the scope of these criteria are:
+a machine learning algorithm providing members of the public with a score to help a government department determine their eligibility for benefits (impact on decision-making with public effect)
+a chatbot on a government website interacting directly with the public which responds to individual queries and directs members of the public to appropriate content on the website (direct interaction with the public)
+Examples of tools that would likely not fall within the scope of the criteria include:
+A tool being used by a government department to transform image to text (e.g. used in digitisation of handwritten documents) as part of an archiving process (no significant decision or direct public interaction)
+An automated scheduling tool which sends out internal diary invites from a mailbox (doesn’t have public effect)
+Further examples are listed below in Annex 1.
+To emphasise, the context of use of the algorithmic tool matters here. The same image to text algorithm above might be relevant if being used instead to digitise paper application forms for a government service (e.g. poor performance of the algorithm on some handwriting styles might well have an influence on success rates for individual applicants).
+Note that the algorithmic tool scope listed above is that of the policy for mandatoryATRSadoption in central government. If you are using an algorithmic tool that does not strictly meet these criteria but you would like to provide the general public with information about it, you can still fill out and publish an algorithmic transparency record.
+The mandatory requirement to publish anATRSrecord applies to tools that are in Beta/Pilot or Production phase.
+Teams are welcome to submit records for tools in earlier stages of the lifecycle, but it is not mandatory to do so.
+For tools that have previously been in use and had a record created for them and which are later being retired, the responsible team should submit an updated record changing the information in the phase field to ‘Retired’. This update will be reflected on the published record on GOV.UK.
+TheATRShas been designed to minimise likely risks that could arise from publication of records (e.g. to security, privacy or intellectual property).
+Situations where no information can be safely published are expected to be unusual (e.g. in cases where even the existence of a tool cannot be made public for security reasons).
+More commonly, for some tools, there may be particular information requested in theATRSthat you may be concerned about releasing into the public domain, even if the majority of the information about the tool is publishable. This may relate to a risk of gaming the tool, risks to national security, infringing intellectual property or releasing commercially sensitive information.
+In most such instances, the appropriate response is to reduce the level of information supplied for relevant fields, for example giving a broad description of the type of data used by a tool instead of specific details of individual data sources, or a broad summary of how a tool works instead of precise information about the system architecture.
+In developing the rationale behind the exemptions for this policy, we align with those set out in the Freedom of Information Act 2000 (“FOIA”). AlthoughFOIAis a reactive means of providing information to the public while the publication ofATRSrecords is proactive, we settled on using theFOIAexemptions as a basis for our exemptions policy since the logic around which types of information are too sensitive to publish openly remains the same. Moreover, theFOIApolicy is firmly established in the public sector as business as usual, thus this will reduce the administrative burden for organisations to comply with theATRSpolicy mandate.
+As a general rule, thisATRSScope and Exemptions Policy does not require the publication of information that would be subject to an exemption under access to information legislation, i.e. theFOIA, Environmental Information Regulations and data protection legislation.
+To understand how this applies in practice, imagine that you created a full internal version of anATRSrecord and (hypothetically) received an FOI request to publish that record. How would you respond to such a request?
+If you would release the record in full, then the same applies to proactive publication of the record.
+If you would release some of the information in the record, but would need to redact some of it under FOI exemptions, then you should remove or de-sensitise the exempt content from theATRSrecord prior to publication.
+In (rare) circumstances where you were not able to confirm the existence of the tool, e.g. you would issue a neither-confirm-or-deny response to the hypothetical FOI request, then it would be inappropriate to publish theATRSrecord at all.
+Not allFOIAexemptions are relevant here. Specifically:
+TheATRSis designed to capture tool-level information rather than personal information. Concerns about publishing personal data should therefore not apply when considering whether to remove or de-sensitise partial or wholeATRSrecords (FOIAsection 40).
+There are limitations on cost of responses, vexatious queries and information already in the public domain, that are necessary for a reactive duty such as theFOIAto avoid disproportionate effort in responding to an unbounded number of incoming requests (FOIAsections 12, 14, 21, 22). They are not relevant to the publication ofATRSrecords which is inherently limited to one record per tool.
+Exemptions for reasons of commercial sensitivity (FOIAsection 23) need to be applied with care seesection on dealing with commercially sensitive information.
+As mentioned above, in most cases it will be sufficient to give higher-level information within particular fields.  However, where entire fields are fully exempt from publication, or you wish to indicate explicitly why the information in a record is limited, we recommend recording this within a record in the following format, with the third column giving a general description of the reason. For example:
+Example 1
+Example 2
+If you have any concerns about publishing information that are not covered above, we would ask you to get in touch with theATRSteam to discussalgorithmic-transparency@dsit.gov.uk.
+Many algorithmic tools used in the public sector will involve an external supplier in some form, and hence publication of anATRSrecord will require some consideration of commercially sensitive information.
+There is a need for care in applying commercial exemptions, i.e. in applying Section 43 of the Freedom of Information Act.
+If this exemption is applied too broadly, it would undermine the overall intent of this policy to increase transparency on the government’s use of algorithmic tools and limit its benefits. Commercial suppliers that wish to sell algorithmic solutions to public bodies that are then used in processes that impact members of the public should be comfortable with this level of transparency that is expected of the public sector. Public bodies that are procuring solutions from vendors should make this expectation clear in their invitation to tender or other route to market.
+The primary focus of theATRSis the use case that a tool is deployed into, and the steps taken to ensure that a tool is appropriate in that context. Though there is some information required about the technical aspects of the tool, there is flexibility on how much information is provided here, and the Standard is designed to be consistent with emerging industry good practice on model cards (and indeed information that might often be published by vendors in a white paper).
+As such, public authorities are encouraged to work with their supply chains at the start of the process to minimise the amount of information being withheld for commercial reasons.
